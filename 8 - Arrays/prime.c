@@ -16,10 +16,7 @@ int main(){
         }
     }
 
-    for (int i = 0; i< 100; i++){
-        if (prime[i] == 0){
-            break;
-        }
+    for (int i = 0; i<index; i++){
         printf("%d\n",prime[i]);
     }
 
